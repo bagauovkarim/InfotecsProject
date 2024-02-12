@@ -1,0 +1,40 @@
+﻿.wrapper {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 8.5px;
+    border-collapse: inherit;
+    border: 3px solid #d4926a;
+}
+
+table {
+    width: 1200px;
+    border: 2px solid black;
+}
+
+th:first-child {
+    min-width: 10px;
+}
+
+
+th {
+    min-width: 100px;
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+    background-color: #d4926a;
+}
