@@ -2,12 +2,15 @@
     width: 1200px;
     display: flex;
     justify-content: center;
+
 }
 
 .content {
     display: flex;
     justify-content: space-between;
     width: 600px;
+
+
 }
 
 form {
@@ -24,17 +27,95 @@ input {
 table {
     width: 1200px;
     border: 2px solid black;
+    border-collapse: collapse;
+    border: 3px solid #245488;
 }
 
-th:first-child {
-    min-width: 10px;
-}
 
 
-th {
-    min-width: 100px;
-    border: 1px solid black;
-    text-align: left;
-    padding: 5px;
+.head {
+    width: 10px;
+    text-align: center;
     background-color: #d4926a;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+
+.id {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.firstName {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.lastName {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+.maidenName {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.age {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.gender {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+.email {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+.phone {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h1 {
+    border-collapse: collapse;
+    border: 3px solid black;
+
+}
+
+.h2 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h3 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h4 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h5 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h6 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h7 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h8 {
+    border-collapse: collapse;
+    border: 3px solid black;
 }
