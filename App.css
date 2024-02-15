@@ -28,7 +28,7 @@ table {
     width: 1200px;
     border: 2px solid black;
     border-collapse: collapse;
-    border: 3px solid #245488;
+    border: 3px solid black;
 }
 
 
@@ -79,6 +79,16 @@ table {
     border: 3px solid black;
 }
 
+.street {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.city {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
 .h1 {
     border-collapse: collapse;
     border: 3px solid black;
@@ -116,6 +126,16 @@ table {
 }
 
 .h8 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h9 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h10 {
     border-collapse: collapse;
     border: 3px solid black;
 }
