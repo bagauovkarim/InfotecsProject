@@ -25,7 +25,18 @@ function App() {
     const [value, setValue] = useState('')
 
     const filteredUsers = userData.filter(user => {
-        return user.firstName.toLowerCase().includes(value.toLowerCase())
+         
+            return user.firstName.toLowerCase().includes(value.toLowerCase())
+                || user.lastName.toLowerCase().includes(value.toLowerCase())
+                || user.maidenName.toLowerCase().includes(value.toLowerCase())
+                || user.gender.toLowerCase().includes(value.toLowerCase())
+                || user.email.toLowerCase().includes(value.toLowerCase())
+                || user.address.address.toLowerCase().includes(value.toLowerCase())
+                || user.address.city.toLowerCase().includes(value.toLowerCase())
+                || user.age.toString().toLowerCase().includes(value.toLowerCase())
+                || user.phone.toString().toLowerCase().includes(value.toLowerCase())
+                || user.id.toString().toLowerCase().includes(value.toLowerCase())
+        
         
     })
 
@@ -72,8 +83,8 @@ function App() {
                                     <td className="maidenName">{user.maidenName}</td>
                                     <td className="age">{user.age}</td>
                                     <td className="gender">{user.gender}</td>
-                                    <td className="email">{user.email}</td>
-                                    <td className="phone">{user.phone}</td>
+                                    <td className="email">{user.phone}</td>
+                                    <td className="phone">{user.email}</td>
                                     <td className="street">{user.address.address}</td>
                                     <td className="city">{user.address.city}</td>
                                 </tr>
