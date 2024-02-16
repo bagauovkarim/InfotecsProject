@@ -25,8 +25,8 @@ function App() {
     const [value, setValue] = useState('')
 
     const filteredUsers = userData.filter(user => {
-         
-            return user.firstName.toLowerCase().includes(value.toLowerCase())
+
+        return user.firstName.toLowerCase().includes(value.toLowerCase())
                 || user.lastName.toLowerCase().includes(value.toLowerCase())
                 || user.maidenName.toLowerCase().includes(value.toLowerCase())
                 || user.gender.toLowerCase().includes(value.toLowerCase())
