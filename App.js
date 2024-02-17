@@ -1,32 +1,32 @@
-import "./App.css"
-import React, {useState, useEffect} from "react";
-//import ReactDOM from "react-dom";    
+import "./App.css" 
+import React, {useState, useEffect} from "react"; 
+   
 
 
 function App() {
-    const [userData, setUserData] = useState([]);
+    const [userData, setUserData] = useState([]);  
     const getApiData = async () => {
         const response = await fetch(
             "https://dummyjson.com/users"
         ).then((response) => response.json());
-        setUserData(response.users);
+        setUserData(response.users); //массив с данными кладем в хук
 
 
     };
 
     useEffect(() => {
-        getApiData();
+        getApiData(); //возвращаем массив userData
 
 
     }, []);
 
-    console.log(userData);
+    console.log(userData); //выводим массив в консоль для проверки
 
-    const [value, setValue] = useState('')
+    const [value, setValue] = useState('') //создаем новый State для фильтрации
 
-    const filteredUsers = userData.filter(user => {
+    const filteredUsers = userData.filter(user => { //фильтруем данные из userData и возвращаем их в filteredUsers
 
-        return user.firstName.toLowerCase().includes(value.toLowerCase())
+        return user.firstName.toLowerCase().includes(value.toLowerCase()) 
                 || user.lastName.toLowerCase().includes(value.toLowerCase())
                 || user.maidenName.toLowerCase().includes(value.toLowerCase())
                 || user.gender.toLowerCase().includes(value.toLowerCase())
@@ -42,12 +42,13 @@ function App() {
 
 
     return (
+        //создание таблицы
         <div className="wrapper">
             <div className="content">
                 <div className="dataTable">
                     <div className="form">
                         <form>
-                            <input
+                            <input //создание input-компонента для поиска информации
                                 className="input"
                                 placeholder="Search"
                                 onChange={(event) => setValue(event.target.value)}
@@ -59,7 +60,7 @@ function App() {
 
                     </div>
                     <table>
-                        <thead className="head">
+                        <thead className="head" /* создание шапки таблицы */> 
                             <tr>
                                 <th className="h1"> id </th>
                                 <th className="h2"> firstName </th>
@@ -74,7 +75,7 @@ function App() {
                             </tr>
                         </thead>
 
-                        <tbody Name="body">
+                        <tbody Name="body" /* вывод таблицы */>
                             {filteredUsers.map((user) => (
                                 <tr className="tablerow">
                                     <td className="id"> {user.id}</td>
@@ -95,10 +96,7 @@ function App() {
                     </table>
 
                 </div>
-                <div>
-                    
                 
-                </div>
             </div>
 
         </div>
