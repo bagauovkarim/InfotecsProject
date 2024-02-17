@@ -1,0 +1,141 @@
+﻿.wrapper {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 8.5px;
+    border-collapse: inherit;
+    border: 3px solid #d4926a;
+}
+
+table {
+    width: 1200px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+
+
+.head {
+    width: 10px;
+    text-align: center;
+    background-color: #d4926a;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+
+.id {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.firstName {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.lastName {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+.maidenName {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.age {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.gender {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+.email {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+.phone {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.street {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.city {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h1 {
+    border-collapse: collapse;
+    border: 3px solid black;
+
+}
+
+.h2 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h3 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h4 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h5 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h6 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h7 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h8 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h9 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.h10 {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
